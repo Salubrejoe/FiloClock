@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "JPEG image.jpeg",
+      "filename" : "FiloIcon.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +13,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "JPEG image 1.jpeg",
+      "filename" : "FiloIcon 1.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -25,7 +25,7 @@
           "value" : "tinted"
         }
       ],
-      "filename" : "JPEG image 2.jpeg",
+      "filename" : "FiloIcon 2.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

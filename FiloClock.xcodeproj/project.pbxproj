@@ -7,41 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C5B737D2D71A2360059528E /* LineOfLatitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B737C2D71A2360059528E /* LineOfLatitude.swift */; };
-		7C5B737F2D71A6380059528E /* ZodiacSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B737E2D71A6380059528E /* ZodiacSign.swift */; };
-		7C5B73812D71CF280059528E /* Zodiac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B73802D71CF280059528E /* Zodiac.swift */; };
+		7C1081192D78B9F50002B941 /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1081182D78B9F50002B941 /* Sun.swift */; };
+		7C2464022D7CB3B600C4E29A /* EPHHRClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2464012D7CB3B600C4E29A /* EPHHRClass.swift */; };
+		7C33B84D2D7EE09700590229 /* Horologium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C33B84C2D7EE09700590229 /* Horologium.swift */; };
+		7C33B84F2D7F3A6200590229 /* EPHStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C33B84E2D7F3A6200590229 /* EPHStar.swift */; };
+		7C33B8512D7F400A00590229 /* EPHConstellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C33B8502D7F400A00590229 /* EPHConstellation.swift */; };
+		7C33B8552D7F405400590229 /* StarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C33B8542D7F405400590229 /* StarData.swift */; };
+		7C33B8572D7F407600590229 /* StarDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C33B8562D7F407600590229 /* StarDatabase.swift */; };
+		7C33B85B2D7F435F00590229 /* bsc5.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C33B85A2D7F435F00590229 /* bsc5.json */; };
+		7C33B8602D80221600590229 /* EPHZodiacSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C33B85F2D80221600590229 /* EPHZodiacSign.swift */; };
+		7C4BACAB2D82DE5300AEED2F /* StereographicUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7C4BACAA2D82DE5300AEED2F /* StereographicUI */; };
+		7C4BACAF2D82E1CA00AEED2F /* JSONListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4BACAD2D82E1CA00AEED2F /* JSONListView.swift */; };
+		7C4BACB52D82F29E00AEED2F /* Angle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4BACB42D82F29E00AEED2F /* Angle+Ext.swift */; };
 		7C88DD072D6E1CC700E61076 /* FiloClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88DD042D6E1CC700E61076 /* FiloClockApp.swift */; };
 		7C88DD082D6E1CC700E61076 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C88DCFF2D6E1CC700E61076 /* Preview Assets.xcassets */; };
 		7C88DD092D6E1CC700E61076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C88DD012D6E1CC700E61076 /* Assets.xcassets */; };
-		7C88DD0B2D6E24D600E61076 /* HourClockHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88DD0A2D6E24D600E61076 /* HourClockHand.swift */; };
+		7C88DD0B2D6E24D600E61076 /* SolarTimeClockHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88DD0A2D6E24D600E61076 /* SolarTimeClockHand.swift */; };
 		7C8AA03A2D6F0E7300B75321 /* SunMoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8AA0392D6F0E7300B75321 /* SunMoonData.swift */; };
-		7C8AA03C2D6F114500B75321 /* WatchCrownWith24Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8AA03B2D6F114500B75321 /* WatchCrownWith24Hours.swift */; };
-		7C8AA0402D6F29D400B75321 /* FixedLatitudesBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8AA03F2D6F29D400B75321 /* FixedLatitudesBackground.swift */; };
+		7C8AA03C2D6F114500B75321 /* WatchCrown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8AA03B2D6F114500B75321 /* WatchCrown.swift */; };
+		7C8DC0FB2D7AE31300E39224 /* GridProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DC0FA2D7AE31300E39224 /* GridProjection.swift */; };
+		7C8DC0FD2D7C38C300E39224 /* EPHStarProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DC0FC2D7C38C300E39224 /* EPHStarProjection.swift */; };
 		7C9B4DC52D72F88F00198684 /* ControlBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B4DC42D72F88F00198684 /* ControlBox.swift */; };
-		7C9B4DC72D72F8F200198684 /* MainClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B4DC62D72F8F200198684 /* MainClock.swift */; };
-		7CFFDFC32D70D4EB00511946 /* LatitudeDependentHorizons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFDFC22D70D4EB00511946 /* LatitudeDependentHorizons.swift */; };
-		7CFFDFC52D70D51D00511946 /* ProjectedSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFDFC42D70D51D00511946 /* ProjectedSizeCalculator.swift */; };
-		7CFFDFC72D70D55900511946 /* HorologiumHorizonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFDFC62D70D55900511946 /* HorologiumHorizonTest.swift */; };
+		7CDF988E2D75B69C00F3EA72 /* EquatorAndTropicsProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF988C2D75B69C00F3EA72 /* EquatorAndTropicsProjection.swift */; };
+		7CFFDFC32D70D4EB00511946 /* SunsetHorizons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFDFC22D70D4EB00511946 /* SunsetHorizons.swift */; };
+		7CFFDFC72D70D55900511946 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFDFC62D70D55900511946 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C5B737C2D71A2360059528E /* LineOfLatitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineOfLatitude.swift; sourceTree = "<group>"; };
-		7C5B737E2D71A6380059528E /* ZodiacSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSign.swift; sourceTree = "<group>"; };
-		7C5B73802D71CF280059528E /* Zodiac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiac.swift; sourceTree = "<group>"; };
+		7C1081182D78B9F50002B941 /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
+		7C2464012D7CB3B600C4E29A /* EPHHRClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPHHRClass.swift; sourceTree = "<group>"; };
+		7C33B84C2D7EE09700590229 /* Horologium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horologium.swift; sourceTree = "<group>"; };
+		7C33B84E2D7F3A6200590229 /* EPHStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPHStar.swift; sourceTree = "<group>"; };
+		7C33B8502D7F400A00590229 /* EPHConstellation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPHConstellation.swift; sourceTree = "<group>"; };
+		7C33B8542D7F405400590229 /* StarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarData.swift; sourceTree = "<group>"; };
+		7C33B8562D7F407600590229 /* StarDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarDatabase.swift; sourceTree = "<group>"; };
+		7C33B85A2D7F435F00590229 /* bsc5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bsc5.json; sourceTree = "<group>"; };
+		7C33B85F2D80221600590229 /* EPHZodiacSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPHZodiacSign.swift; sourceTree = "<group>"; };
+		7C4BACA82D82DCFB00AEED2F /* StereographicUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StereographicUI; path = ../StereographicUI; sourceTree = SOURCE_ROOT; };
+		7C4BACAD2D82E1CA00AEED2F /* JSONListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONListView.swift; sourceTree = "<group>"; };
+		7C4BACB42D82F29E00AEED2F /* Angle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Angle+Ext.swift"; sourceTree = "<group>"; };
 		7C88DCED2D6E1CC100E61076 /* FiloClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiloClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C88DCFF2D6E1CC700E61076 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C88DD012D6E1CC700E61076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C88DD032D6E1CC700E61076 /* FiloClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FiloClock.entitlements; sourceTree = "<group>"; };
 		7C88DD042D6E1CC700E61076 /* FiloClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiloClockApp.swift; sourceTree = "<group>"; };
-		7C88DD0A2D6E24D600E61076 /* HourClockHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourClockHand.swift; sourceTree = "<group>"; };
+		7C88DD0A2D6E24D600E61076 /* SolarTimeClockHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarTimeClockHand.swift; sourceTree = "<group>"; };
 		7C8AA0392D6F0E7300B75321 /* SunMoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunMoonData.swift; sourceTree = "<group>"; };
-		7C8AA03B2D6F114500B75321 /* WatchCrownWith24Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCrownWith24Hours.swift; sourceTree = "<group>"; };
-		7C8AA03F2D6F29D400B75321 /* FixedLatitudesBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedLatitudesBackground.swift; sourceTree = "<group>"; };
+		7C8AA03B2D6F114500B75321 /* WatchCrown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCrown.swift; sourceTree = "<group>"; };
+		7C8DC0FA2D7AE31300E39224 /* GridProjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridProjection.swift; sourceTree = "<group>"; };
+		7C8DC0FC2D7C38C300E39224 /* EPHStarProjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPHStarProjection.swift; sourceTree = "<group>"; };
 		7C9B4DC42D72F88F00198684 /* ControlBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlBox.swift; sourceTree = "<group>"; };
-		7C9B4DC62D72F8F200198684 /* MainClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClock.swift; sourceTree = "<group>"; };
-		7CFFDFC22D70D4EB00511946 /* LatitudeDependentHorizons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatitudeDependentHorizons.swift; sourceTree = "<group>"; };
-		7CFFDFC42D70D51D00511946 /* ProjectedSizeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectedSizeCalculator.swift; sourceTree = "<group>"; };
-		7CFFDFC62D70D55900511946 /* HorologiumHorizonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorologiumHorizonTest.swift; sourceTree = "<group>"; };
+		7CDF988C2D75B69C00F3EA72 /* EquatorAndTropicsProjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatorAndTropicsProjection.swift; sourceTree = "<group>"; };
+		7CFFDFC22D70D4EB00511946 /* SunsetHorizons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetHorizons.swift; sourceTree = "<group>"; };
+		7CFFDFC62D70D55900511946 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,16 +67,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4BACAB2D82DE5300AEED2F /* StereographicUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C10811D2D78C1CB0002B941 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7C4BACB42D82F29E00AEED2F /* Angle+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7C33B8532D7F404800590229 /* EPHModel */ = {
+			isa = PBXGroup;
+			children = (
+				7C33B85F2D80221600590229 /* EPHZodiacSign.swift */,
+				7C33B84E2D7F3A6200590229 /* EPHStar.swift */,
+				7C33B8502D7F400A00590229 /* EPHConstellation.swift */,
+				7C2464012D7CB3B600C4E29A /* EPHHRClass.swift */,
+				7C4BACB12D82E60C00AEED2F /* JSONTypes */,
+			);
+			path = EPHModel;
+			sourceTree = "<group>";
+		};
+		7C33B8632D819CAD00590229 /* Horologiums */ = {
+			isa = PBXGroup;
+			children = (
+				7C33B84C2D7EE09700590229 /* Horologium.swift */,
+				7C9B4DCB2D72FDF700198684 /* Components */,
+			);
+			path = Horologiums;
+			sourceTree = "<group>";
+		};
+		7C4BACA92D82DE5300AEED2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C4BACAE2D82E1CA00AEED2F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7C8AA0392D6F0E7300B75321 /* SunMoonData.swift */,
+				7C4BACAD2D82E1CA00AEED2F /* JSONListView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7C4BACB12D82E60C00AEED2F /* JSONTypes */ = {
+			isa = PBXGroup;
+			children = (
+				7C33B8542D7F405400590229 /* StarData.swift */,
+				7C33B8562D7F407600590229 /* StarDatabase.swift */,
+			);
+			path = JSONTypes;
+			sourceTree = "<group>";
+		};
 		7C88DCE42D6E1CC100E61076 = {
 			isa = PBXGroup;
 			children = (
 				7C88DD052D6E1CC700E61076 /* FiloClock */,
+				7C4BACA92D82DE5300AEED2F /* Frameworks */,
+				7C4BACA82D82DCFB00AEED2F /* StereographicUI */,
 				7C88DCEE2D6E1CC100E61076 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,9 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				7C88DD042D6E1CC700E61076 /* FiloClockApp.swift */,
-				7CFFDFC62D70D55900511946 /* HorologiumHorizonTest.swift */,
 				7C9B4DC92D72FDE700198684 /* Views */,
-				7CFFDFC92D70D58F00511946 /* Model */,
+				7C33B8532D7F404800590229 /* EPHModel */,
+				7C4BACAE2D82E1CA00AEED2F /* Helpers */,
+				7C10811D2D78C1CB0002B941 /* Extensions */,
 				7C9B4DCF2D72FE3000198684 /* Resources */,
 			);
 			path = FiloClock;
@@ -94,8 +170,10 @@
 		7C9B4DC92D72FDE700198684 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7C9B4DCD2D72FE1A00198684 /* MainViews */,
-				7C9B4DCB2D72FDF700198684 /* Components */,
+				7CFFDFC62D70D55900511946 /* MainView.swift */,
+				7C9B4DC42D72F88F00198684 /* ControlBox.swift */,
+				7C33B8632D819CAD00590229 /* Horologiums */,
+				7CF9ADC32D7E0C2700D307F7 /* StarProjections */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,43 +181,33 @@
 		7C9B4DCB2D72FDF700198684 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				7C8AA03B2D6F114500B75321 /* WatchCrownWith24Hours.swift */,
-				7C88DD0A2D6E24D600E61076 /* HourClockHand.swift */,
-				7C5B73802D71CF280059528E /* Zodiac.swift */,
-				7C8AA03F2D6F29D400B75321 /* FixedLatitudesBackground.swift */,
-				7CFFDFC22D70D4EB00511946 /* LatitudeDependentHorizons.swift */,
-				7C5B737C2D71A2360059528E /* LineOfLatitude.swift */,
+				7C1081182D78B9F50002B941 /* Sun.swift */,
+				7C88DD0A2D6E24D600E61076 /* SolarTimeClockHand.swift */,
+				7C8AA03B2D6F114500B75321 /* WatchCrown.swift */,
+				7CFFDFC22D70D4EB00511946 /* SunsetHorizons.swift */,
+				7CDF988C2D75B69C00F3EA72 /* EquatorAndTropicsProjection.swift */,
+				7C8DC0FA2D7AE31300E39224 /* GridProjection.swift */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		7C9B4DCD2D72FE1A00198684 /* MainViews */ = {
-			isa = PBXGroup;
-			children = (
-				7C9B4DC62D72F8F200198684 /* MainClock.swift */,
-				7C9B4DC42D72F88F00198684 /* ControlBox.swift */,
-			);
-			path = MainViews;
 			sourceTree = "<group>";
 		};
 		7C9B4DCF2D72FE3000198684 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C88DD032D6E1CC700E61076 /* FiloClock.entitlements */,
 				7C88DD002D6E1CC700E61076 /* Preview Content */,
+				7C88DD032D6E1CC700E61076 /* FiloClock.entitlements */,
 				7C88DD012D6E1CC700E61076 /* Assets.xcassets */,
+				7C33B85A2D7F435F00590229 /* bsc5.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		7CFFDFC92D70D58F00511946 /* Model */ = {
+		7CF9ADC32D7E0C2700D307F7 /* StarProjections */ = {
 			isa = PBXGroup;
 			children = (
-				7CFFDFC42D70D51D00511946 /* ProjectedSizeCalculator.swift */,
-				7C8AA0392D6F0E7300B75321 /* SunMoonData.swift */,
-				7C5B737E2D71A6380059528E /* ZodiacSign.swift */,
+				7C8DC0FC2D7C38C300E39224 /* EPHStarProjection.swift */,
 			);
-			path = Model;
+			path = StarProjections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +227,7 @@
 			);
 			name = FiloClock;
 			packageProductDependencies = (
+				7C4BACAA2D82DE5300AEED2F /* StereographicUI */,
 			);
 			productName = FiloClock;
 			productReference = 7C88DCED2D6E1CC100E61076 /* FiloClock.app */;
@@ -188,6 +257,8 @@
 			);
 			mainGroup = 7C88DCE42D6E1CC100E61076;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7C88DCEE2D6E1CC100E61076 /* Products */;
 			projectDirPath = "";
@@ -205,6 +276,7 @@
 			files = (
 				7C88DD082D6E1CC700E61076 /* Preview Assets.xcassets in Resources */,
 				7C88DD092D6E1CC700E61076 /* Assets.xcassets in Resources */,
+				7C33B85B2D7F435F00590229 /* bsc5.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,19 +287,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CFFDFC32D70D4EB00511946 /* LatitudeDependentHorizons.swift in Sources */,
-				7C8AA0402D6F29D400B75321 /* FixedLatitudesBackground.swift in Sources */,
+				7C1081192D78B9F50002B941 /* Sun.swift in Sources */,
+				7CFFDFC32D70D4EB00511946 /* SunsetHorizons.swift in Sources */,
+				7C33B84D2D7EE09700590229 /* Horologium.swift in Sources */,
+				7C33B8552D7F405400590229 /* StarData.swift in Sources */,
 				7C8AA03A2D6F0E7300B75321 /* SunMoonData.swift in Sources */,
-				7CFFDFC52D70D51D00511946 /* ProjectedSizeCalculator.swift in Sources */,
-				7C8AA03C2D6F114500B75321 /* WatchCrownWith24Hours.swift in Sources */,
-				7C5B737D2D71A2360059528E /* LineOfLatitude.swift in Sources */,
-				7C88DD0B2D6E24D600E61076 /* HourClockHand.swift in Sources */,
-				7CFFDFC72D70D55900511946 /* HorologiumHorizonTest.swift in Sources */,
-				7C5B73812D71CF280059528E /* Zodiac.swift in Sources */,
+				7CDF988E2D75B69C00F3EA72 /* EquatorAndTropicsProjection.swift in Sources */,
+				7C8AA03C2D6F114500B75321 /* WatchCrown.swift in Sources */,
+				7C33B8512D7F400A00590229 /* EPHConstellation.swift in Sources */,
+				7C33B8602D80221600590229 /* EPHZodiacSign.swift in Sources */,
+				7C33B84F2D7F3A6200590229 /* EPHStar.swift in Sources */,
+				7C8DC0FB2D7AE31300E39224 /* GridProjection.swift in Sources */,
+				7C8DC0FD2D7C38C300E39224 /* EPHStarProjection.swift in Sources */,
+				7C88DD0B2D6E24D600E61076 /* SolarTimeClockHand.swift in Sources */,
+				7C4BACB52D82F29E00AEED2F /* Angle+Ext.swift in Sources */,
+				7CFFDFC72D70D55900511946 /* MainView.swift in Sources */,
+				7C33B8572D7F407600590229 /* StarDatabase.swift in Sources */,
 				7C9B4DC52D72F88F00198684 /* ControlBox.swift in Sources */,
-				7C5B737F2D71A6380059528E /* ZodiacSign.swift in Sources */,
-				7C9B4DC72D72F8F200198684 /* MainClock.swift in Sources */,
+				7C4BACAF2D82E1CA00AEED2F /* JSONListView.swift in Sources */,
 				7C88DD072D6E1CC700E61076 /* FiloClockApp.swift in Sources */,
+				7C2464022D7CB3B600C4E29A /* EPHHRClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +434,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FiloClock/Resources/FiloClock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"FiloClock/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = CLM5L23Y57;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -378,12 +457,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lorep.uk.FiloClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FiloClock/Resources/FiloClock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"FiloClock/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = CLM5L23Y57;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -421,12 +501,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lorep.uk.FiloClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,6 +537,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C4BACAA2D82DE5300AEED2F /* StereographicUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StereographicUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7C88DCE52D6E1CC100E61076 /* Project object */;
 }
